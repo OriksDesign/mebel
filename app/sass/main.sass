@@ -36,11 +36,15 @@ body
 	font-family: $default-font
 	overflow-x: hidden
 	opacity: 1
-
+a
+	color: black
+	text-decoration: none
 .img-responsive
 	display: block
 	max-width: 100%
 	height: auto
+
+
 .container
 	display: flex
 	flex-wrap: wrap
@@ -49,4 +53,30 @@ body
 	background-color: green
 	margin: 5px
 	max-width: 200px
+.social-nav ul, .list-menu ul
+	display: flex
+	justify-content: flex-end
+.head-menu, .foot-menu
+	padding-right: 10px
+	display: flex
+	justify-content: flex-end
+	align-items: center	
+li
+	list-style-type: none
+	margin: 5px
+	i
+		color: white
+.logo
+	position: absolute
+	top: 0px
+	left: 50px
+	background-color: white
+.list-menu
+	margin: auto
+.button-contact
+	flex: 
+.head-menu
+	background-color: #2E2E2E
+.foot-menu
+	background-color: #FFF
 @import "media" // Всегда в конце
